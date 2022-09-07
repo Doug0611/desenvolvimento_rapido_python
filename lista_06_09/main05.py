@@ -2,7 +2,7 @@ list_averages = []
 
 average = 0
 
-for n in range(3):
+for n in range(10):
     for i, j in enumerate(range(4), start=1):
         student_grade = float(input(f'{i}º nota : '))
         average += student_grade
