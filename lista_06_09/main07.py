@@ -1,7 +1,7 @@
 ages = []
 heights = []
 
-for i, n in enumerate(range(2), start=1):
+for i, n in enumerate(range(5), start=1):
     ages.append(int(input(f'Informe a idade da {i}º pessoa: ')))
     heights.append(float(input(f'Informe a altura {i}º pessoa : ')))
     print('*****' * 4)
